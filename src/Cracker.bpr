@@ -1,0 +1,173 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\bin\Cracker.exe&quot;"/>
+    <OBJFILES value="..\obj\Cracker.obj ..\obj\Main.obj ..\obj\About.obj 
+      ..\obj\CrackerEngine.obj ..\obj\fModules.obj ..\obj\fLog.obj 
+      ..\obj\fCallStack.obj ..\obj\fDisassembly.obj ..\obj\DebuggerThread.obj 
+      ..\obj\fParametes.obj ..\obj\fSymbols.obj"/>
+    <RESFILES value="..\rsrc\Cracker.res Cracker.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) Main.dfm About.dfm fModules.dfm fLog.dfm fCallStack.dfm 
+      fDisassembly.dfm fParametes.dfm fSymbols.dfm"/>
+    <LIBFILES value="..\lib\dbghelp.lib ..\lib\shell32.lib ..\lib\psapi.lib"/>
+    <LIBRARIES value=""/>
+    <SPARELIBS value="vcl.lib rtl.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT;_NO_VCL;_RTLDLL;USEPACKAGES"/>
+    <MAINSOURCE value="Cracker.cpp"/>
+    <INCLUDEPATH value="$(BCB)\include;$(BCB)\include\vcl;&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\include&quot;"/>
+    <LIBPATH value="$(BCB)\Lib;$(BCB)\Lib\Obj;&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\lib&quot;"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\include -I$(BCB)\include\vcl 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\include&quot; 
+      -src_suffix cpp -D_DEBUG -no_stdstream -no_tie"/>
+    <CFLAG1 value="-Od -Vx -Ve -xf -xp -C -X- -r- -pr -a4 -6 -b- -k -y -v -vi- -tWC -tWM- -c"/>
+    <PFLAGS value="-N2&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\obj&quot; 
+      -N0&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\obj&quot; -$Y+ -$W -$R 
+      -$Q -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zn"/>
+    <LFLAGS value="-l&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\lib&quot; 
+      -I&quot;C:\Program Files\Borland\CBuilder6\Projects\Cracker\obj&quot; -D&quot;&quot; -U1.0 
+      -V5.1 -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj $(PACKAGES) $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cw32i.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Cracker.cpp" FORMNAME="" UNITNAME="Cracker" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Main.cpp" FORMNAME="MainForm" UNITNAME="Main" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="About.cpp" FORMNAME="AboutBox" UNITNAME="About" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CrackerEngine.cpp" FORMNAME="" UNITNAME="CrackerEngine" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fModules.cpp" FORMNAME="Modules" UNITNAME="fModules" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fLog.cpp" FORMNAME="Log" UNITNAME="fLog" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fCallStack.cpp" FORMNAME="CallStack" UNITNAME="fCallStack" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fDisassembly.cpp" FORMNAME="Disassembly" UNITNAME="fDisassembly" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DebuggerThread.cpp" FORMNAME="" UNITNAME="DebuggerThread" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fParametes.cpp" FORMNAME="Parameters" UNITNAME="fParametes" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\rsrc\Cracker.res" FORMNAME="" UNITNAME="Cracker.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\rsrc\cracker.ico" FORMNAME="" UNITNAME="cracker.ico" CONTAINERID="" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\dbghelp.lib" FORMNAME="" UNITNAME="dbghelp.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\shell32.lib" FORMNAME="" UNITNAME="shell32.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="..\lib\psapi.lib" FORMNAME="" UNITNAME="psapi.lib" CONTAINERID="LibTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="fSymbols.cpp" FORMNAME="Symbols" UNITNAME="fSymbols" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Cracker.res" FORMNAME="" UNITNAME="" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=1
+MajorVer=1
+MinorVer=0
+Release=0
+Build=21
+Debug=1
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=****
+FileDescription=A Cracker for EXE files =)
+FileVersion=1.0.0.21
+InternalName=Cracker.exe
+LegalCopyright=CopyLeft
+LegalTrademarks=HACK THE PLANET
+OriginalFilename=Cracker.exe
+ProductName=Cracker
+ProductVersion=1.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=$(BCB)\include;$(BCB)\include\vcl;C:\Program Files\Borland\CBuilder6\Projects\Cracker\include
+Item1=$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\Examples\Doc\TextEdit;dbgtest;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=5
+Item0=$(BCB)\Lib;$(BCB)\Lib\Obj;C:\Program Files\Borland\CBuilder6\Projects\Cracker\lib
+Item1=$(BCB)\Lib;$(BCB)\Lib\Obj
+Item2=$(BCB)\Lib\Obj
+Item3=$(BCB)\lib
+Item4=..\..\Examples\Doc\TextEdit;dbgtest;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=2
+Item0=$(BCB)\source\vcl;$(BCB)\Source\Rtl
+Item1=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[HistoryLists\hlIntOutputDir]
+Count=1
+Item0=C:\Program Files\Borland\CBuilder6\Projects\Cracker\obj
+
+[HistoryLists\hlFinalOutputDir]
+Count=2
+Item0=C:\Program Files\Borland\CBuilder6\Projects\Cracker\bin\
+Item1=C:\Program Files\Borland\CBuilder6\Projects\Cracker\bin
+
+[HistoryLists\hIBPIOutputDir]
+Count=1
+Item0=C:\Program Files\Borland\CBuilder6\Projects\Cracker\lib
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl;$(BCB)\Source\Rtl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=1
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=0
+AddClientUnit=0
+PrecompiledHeaders=0
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>
